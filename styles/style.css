@@ -36,9 +36,13 @@
     font-weight: 400;
     text-align: right;
 }
+.header-nav-menu-el a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .main {
-    height: calc(713px - 72px);
+    height: calc(400px - 72px);
     background: url('./../img/main_background.jpg') center center/cover no-repeat;
     padding: 110px 150px 182px 150px;
 }
