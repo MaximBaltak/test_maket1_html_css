@@ -4,9 +4,14 @@
 }
 
 .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     height: 66px;
     background-color: #000000;
     padding: 23px 148px;
+    z-index: 2;
 }
 
 .header-nav {
@@ -42,6 +47,7 @@
 }
 
 .main {
+    margin-top: 112px;
     min-height: calc(400px - 72px);
     background: url('./../img/main_background.jpg') center center/cover no-repeat;
     padding: 110px 150px 182px 150px;
