@@ -47,6 +47,7 @@
 }
 
 .main {
+    position: relative;
     margin-top: 112px;
     min-height: calc(400px - 72px);
     background: url('./../img/main_background.jpg') center center/cover no-repeat;
@@ -174,8 +175,10 @@
     justify-content: space-between;
     align-items: center;
     width: 1082px;
-    margin: 29px auto;
+    margin: 0 auto;
+    padding-top: 19px;
 }
+
 .media-flex-info{
     width: 365px;
 
@@ -211,13 +214,15 @@
 }
 .tabs{
     min-height: 595px;
+    background-color: #ffffff;
+    padding-top: 147px;
 }
 .tabs-flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 147px auto;
+    margin: 0 auto;
     width: 1110px;
 }
 .tabs-flex-list{
@@ -272,9 +277,11 @@
 }
 .sectionList1{
     min-height: 596px;
+    background-color: #ffffff;
+    padding-top: 107px;
 }
 .sectionList1-flex{
-    margin: 107px auto;
+    margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -358,9 +365,10 @@
 }
 .listMain{
     min-height: 592px;
+    background-color: #ffffff;
 }
 .listMain-title{
-    margin-top: 108px;
+    padding-top: 108px;
     color: #212121;
     font-family: Raleway, sans-serif;
     font-size: 36px;
@@ -431,9 +439,10 @@
 }
 .options{
     min-height: 883px;
+    background-color: #ffffff;
 }
 .options-title{
-    margin-top: 108px;
+    padding-top: 108px;
     color: #212121;
     font-family: Raleway, sans-serif;
     font-size: 36px;
@@ -537,5 +546,168 @@
     font-weight: 400;
 
 }
+.people{
+    min-height: 591px;
+    background-color: #ffffff;
+    padding-top: 55px;
+}
+.people-flex{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:1024px;
+}
+.people-flex-el{
+    width: 258px;
+}
+.left{
+    text-align: left;
+}
+.people-flex-el-container{
+    margin-top: 49px;
+    width: 183px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.people-flex-el-container-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.people-flex-el-container-wrapper{
+    width: 98px;
+}
+.margin{
+    margin-top: 3px;
+}
+.people-flex-el-container-wrapper-name{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+.wapper{
+    min-height: 320px;
+    background: rgba(0,0,0,0);
+}
+.wapper-title{
+    padding-top: 74px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Raleway,sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.wapper-text{
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+   text-align: center;
+}
+.wapper-text:before{
+    content: '';
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 29px auto 30px;
+}
+.center{
+    margin: 33px auto;
+}
+.contacts{
+    min-height: 643px;
+    background-color: #ffffff;
+}
+.contacts-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1171px;
+    margin: 50px auto 0;
+}
+.contacts-form-container{
+    width: 527px;
+}
+.contacts-form-container input {
+    margin-top: 30px;
+    height: 32px;
+    width: 527px;
+    display: block;
+    outline: none;
+    background: white;
+    padding: 3px;
+    border: none;
+    border-bottom: solid 1px #cbcbcb;
 
+}
+.contacts-form textarea {
+    margin-top: 54px;
+    height: 143px;
+    width: 527px;
+    display: block;
+    outline: none;
+    background: white;
+    padding: 3px;
+    border: none;
+    border-bottom: solid 1px #cbc9c9;
+    resize: none;
 
+}
+.contacts-form button{
+    display: block;
+    margin: 51px auto;
+    width: 121px;
+    height: 46px;
+    background: #ff8b38;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer{
+    height: 38px;
+    background-color: #000000;
+    padding: 30px;
+}
+.footer-flex{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    width: 317px;
+    justify-content: space-between;
+}
+.footer-flex-icons-icon{
+}
+.footer-flex-icons-icon i{
+    color: #cccccc;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-text{
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+.main1{
+    position: fixed;
+    z-index: -1;
+    top: -544px;
+    right: -18px;
+}
