@@ -40,10 +40,14 @@
     font-size: 14px;
     font-weight: 400;
     text-align: right;
+    transition: all .3s;
 }
 .header-nav-menu-el a {
     text-decoration: none;
     color: #ffffff;
+}
+.header-nav-menu-el a:hover{
+    color: #29bbff;
 }
 
 .main {
@@ -114,6 +118,12 @@
     font-size: 15px;
     font-weight: 400;
     margin-top: 44px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.main-flex-container-button:hover{
+    background: white;
+    color: black;
 }
 
 .main-flex-container-card {
@@ -163,6 +173,11 @@
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
+    cursor: pointer;
+    transition: all .3s;
+}
+.main-flex-container-submit:hover{
+    color: black;
 }
 .media{
     min-height: 105px;
@@ -211,6 +226,28 @@
 .media-flex-icons-icon a i{
     font-size: 48px;
     font-weight: 400;
+    transition: all .3s;
+}
+.media-flex-icons-icon .fa-facebook:hover{
+    color: #00419f;
+}
+.media-flex-icons-icon .fa-twitter:hover{
+    color: #3c9dff;
+}
+.media-flex-icons-icon .fa-google-plus:hover{
+    color: #ff4646;
+}
+.media-flex-icons-icon .fa-pinterest-p:hover{
+    color: #b00000;
+}
+.media-flex-icons-icon .fa-instagram:hover{
+    color: #b80cef;
+}
+.media-flex-icons-icon .fa-stumbleupon:hover{
+    color: #005dc0;
+}
+.media-flex-icons-icon .fa-rss:hover{
+    color: #000000;
 }
 .tabs{
     min-height: 595px;
@@ -245,9 +282,32 @@
     font-size: 15px;
     font-weight: 700;
 }
+.container-tab{
+    width: 485px;
+    height: 340px;
+    overflow: hidden;
+}
 .tabs-flex-info{
     width: 476px;
+    display: none;
+    opacity:0;
+    transition: all .5s;
 }
+.active{
+    display: block;
+    animation: ani .7s linear forwards;
+}
+@keyframes ani {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
 .tabs-flex-info h2{
     color: #000000;
     font-size: 20px;
@@ -270,6 +330,11 @@
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
+    cursor: pointer;
+    transition: all .3s;
+}
+.tabs-flex-info button:hover{
+    color: black;
 }
 .tabs-flex-image{
     width: 320px;
@@ -673,10 +738,14 @@
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
+    transition: all .3s;
+}
+.contacts-form button:hover{
+    color: black;
 }
 
 .footer{
-    height: 38px;
+    /*height: 38px;*/
     background-color: #000000;
     padding: 30px;
 }
